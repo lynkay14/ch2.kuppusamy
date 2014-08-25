@@ -1,6 +1,6 @@
 #futval.hw.kuppusamy.py
 # a program to compute the value of an investment
-# carried 10 years into the future
+# carried n years into the future
 
 def main():
     print("This program calculates the future value")
@@ -12,7 +12,7 @@ def main():
 
     for i in range(n):
         principal = principal * (1 + apr)
-    print("The value in the entered number of years is:", principal)
+    print("The value in", n, "years is", principal)
 
 main()
 
